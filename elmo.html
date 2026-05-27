@@ -1,7 +1,19 @@
-<html><head>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: url("elmo.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+img {
+    display: none; /* ukrywa <img>, jeśli go nie potrzebujesz */
+}
+</style>
 </head>
+
 <body>
-<img src="elmo.gif"/>
 <audio id="bg" src="trollolo.mp3" loop></audio>
 
 <script>
@@ -11,4 +23,5 @@ document.addEventListener("click", () => {
 }, { once: true });
 </script>
 
-</body></html>
+</body>
+</html>
